@@ -45,7 +45,7 @@ def test_3():
 
 # skip\skipif
 environment = 'android'
-@pytest.mark.skipif(environment = "android", reason="android平台没有这个功能，只在ios下有")
+@pytest.mark.skipif(environment = "android1", reason="android平台没有这个功能，只在ios下有")
 def test_one():
     print("apple")
 
@@ -67,9 +67,6 @@ def test_xfail():
 
 
 # 自定义标签
-
-
-
 
 
 if __name__ == '__main__':
